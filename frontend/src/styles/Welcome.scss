@@ -1,0 +1,76 @@
+.welcome {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  left: 0%;
+  top: 0rem;
+
+  .texte{
+    position: absolute;
+    top: 12rem;
+    width: 40%;
+    left: 5%;
+  
+       h1{
+        font-size: 38.7px;
+
+        font-family: 'Kanit', sans-serif;
+
+         span{
+          color: #138ea3;
+          font-family: 'Kanit', sans-serif;
+         }
+       }
+
+       button{
+        padding: 9.4px;
+        font-size: 19px;
+        padding-left: 25px;
+        padding-right: 25px;
+       }
+  }
+
+  .couv{
+     position: relative;
+     left: 45%;
+     top:5rem;
+     z-index: 55;
+
+       img{
+          width: 11rem;
+          margin-left: 2%;
+          height: 11rem;
+          border-radius: 20px;
+
+            &:nth-child(2){
+              position: relative;
+              top: 13.5rem;
+              left: -12.5rem;
+            }
+
+            &:nth-child(3){
+              position: relative;
+              top: 7.5rem;
+              left: -12.5rem;
+              width: 22rem;
+              height: 22rem ;
+            }
+       }
+  }
+
+  .container1 {
+    position: relative;
+      height: 1200px;
+      width: 2000px;
+      top: 11%;
+      left: 48%;
+      transform: translate(0%,-55%);
+      background-image: linear-gradient(-45deg, #236477 0%, #b3f4f7 100%);
+      border-radius: 50%;
+      z-index: 6;
+    }
+
+  
+}
+

@@ -1,0 +1,11 @@
+@mixin picture($width, $height, $radius){
+    width: $width;
+    height: $height;
+    border-radius: $radius;
+  }
+
+  *{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
