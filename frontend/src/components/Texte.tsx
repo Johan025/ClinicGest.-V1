@@ -1,9 +1,9 @@
 import React from 'react';
 import { faSortDown} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Typewriter from "typewriter-effect";
+import Typewriter, { TypewriterClass } from "typewriter-effect";
 
-const Texte = () => {
+const Texte:React.FC = () => {
     return (
         <div className='texte'>
                 <h1> Choisissez la meilleure clinique pour 
